@@ -15,6 +15,16 @@
   "lspconfig": {
     "lua_ls": {
       "Lua.format.enable": false
+    },
+    "html": {
+      "html.format.enable": false
+    },
+    "eslint": {
+      "eslint.format.enable": false
+    },
+    "tsserver": {
+      "javascript.format.enable": false,
+      "typescript.format.enable": false
     }
   }
 }
