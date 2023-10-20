@@ -5,7 +5,7 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- themes
-  { import = "astrocommunity.colorscheme.vscode-nvim"},
+  -- { import = "astrocommunity.colorscheme.vscode-nvim"},
 
   -- languages
   { import = "astrocommunity.pack.angular" },
