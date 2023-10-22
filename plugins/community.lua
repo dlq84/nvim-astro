@@ -4,6 +4,16 @@ return {
   -- example of importing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
+  { import = "astrocommunity.bars-and-lines.scope-nvim" },
+  { import = "astrocommunity.bars-and-lines.vim-illuminate" },
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
+  { import = "astrocommunity.git.git-blame-nvim" },
+  { import = "astrocommunity.git.diffview-nvim"},
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.motion.nvim-surround" },
+  { import = "astrocommunity.syntax.hlargs-nvim" },
+  { import = "astrocommunity.lsp.lsp-signature-nvim" },
+
   -- themes
   -- { import = "astrocommunity.colorscheme.vscode-nvim"},
 
