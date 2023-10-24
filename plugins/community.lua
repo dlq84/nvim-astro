@@ -31,4 +31,5 @@ return {
   { import = "astrocommunity.pack.helm" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.python" },
 }
