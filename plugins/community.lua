@@ -3,6 +3,31 @@ return {
   "AstroNvim/astrocommunity",
   -- example of importing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  { -- further customize the options set by the community
+    "catppuccin",
+    opts = {
+      transparent_background = true,
+      integrations = {
+        sandwich = false,
+        noice = true,
+        notify = true,
+        mini = true,
+        telescope = true,
+        leap = true,
+        markdown = true,
+        neotest = true,
+        cmp = true,
+        overseer = true,
+        lsp_trouble = true,
+        rainbow_delimiters = true,
+        neotree = true,
+        neogit = true,
+        treesitter = true,
+        treesitter_context = true,
+      },
+    },
+  },
 
   { import = "astrocommunity.bars-and-lines.scope-nvim" },
   { import = "astrocommunity.bars-and-lines.vim-illuminate" },
@@ -15,7 +40,7 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.syntax.hlargs-nvim" },
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
- -- themes
+  -- themes
   -- { import = "astrocommunity.colorscheme.vscode-nvim"},
 
   -- languages
