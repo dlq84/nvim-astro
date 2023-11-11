@@ -40,6 +40,7 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.syntax.hlargs-nvim" },
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
+  { import = "astrocommunity.lsp.garbage-day-nvim" },
   -- themes
   -- { import = "astrocommunity.colorscheme.vscode-nvim"},
 
