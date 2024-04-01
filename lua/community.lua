@@ -11,8 +11,8 @@ return {
 
   { import = "astrocommunity.bars-and-lines.scope-nvim" },
   { import = "astrocommunity.bars-and-lines.vim-illuminate" },
---  { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
---  { import = "astrocommunity.bars-and-lines.heirline-vscode-winbar" },
+  --  { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
+  -- { import = "astrocommunity.bars-and-lines.heirline-vscode-winbar" },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.git.diffview-nvim" },
