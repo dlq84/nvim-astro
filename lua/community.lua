@@ -20,7 +20,7 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.syntax.hlargs-nvim" },
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
-  { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
+  { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
 
   -- languages
   { import = "astrocommunity.pack.angular" },
