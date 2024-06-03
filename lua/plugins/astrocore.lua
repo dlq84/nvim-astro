@@ -69,6 +69,10 @@ return {
         ["<Leader>b"] = { desc = "Buffers" },
         -- quick save
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+        ["grr"] = {
+          function() require("telescope.builtin").lsp_references() end,
+          desc = "Show References",
+        },
       },
       t = {
         -- setting a mapping to false will disable it
