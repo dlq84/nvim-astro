@@ -25,6 +25,10 @@
     "tsserver": {
       "javascript.format.enable": false,
       "typescript.format.enable": false
+    },
+    "vtsls": {
+      "javascript.format.enable": false,
+      "typescript.format.enable": false
     }
   }
 }
